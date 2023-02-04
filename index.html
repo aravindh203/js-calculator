@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>js-calculator</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="calculator">
+                <div class="input">
+                    <input type="text" id="answer">
+                </div>
+                <div class="row">                                       
+                    <div class="col">
+                        <button id="seven" onclick="number(7)">7</button>
+                    </div>
+                    <div class="col">
+                        <button id="eight" onclick="number(8)">8</button>
+                    </div>
+                    <div class="col">
+                        <button id="nine" onclick="number(9)">9</button>
+                    </div>
+                    <div class="col">
+                        <button id="multiple" onclick="number('*')">*</button>
+                    </div>
+                    <div class="col">
+                        <button id="four" onclick="number(4)">4</button>
+                    </div>
+                    <div class="col">
+                        <button id="five" onclick="number(5)">5</button>
+                    </div>
+                    <div class="col">
+                        <button id="six" onclick="number(6)">6</button>
+                    </div>
+                    <div class="col">
+                        <button id="divide" onclick="number('/')">/</button>
+                    </div>
+                    <div class="col">
+                        <button id="one" onclick="number(1)">1</button>
+                    </div>
+                    <div class="col">
+                        <button id="two" onclick="number(2)">2</button>
+                    </div>
+                    <div class="col">
+                        <button id="three" onclick="number(3)">3</button>
+                    </div>
+                    <div class="col">
+                        <button id="minus" onclick="number('-')">-</button>
+                    </div>
+                    <div class="col">
+                        <button id="dot" onclick="clearValue()">c</button>
+                    </div>
+                    <div class="col">
+                        <button id="zero" onclick="number(0)">0</button>
+                    </div>
+                    <div class="col">
+                        <button id="plus" onclick="number('+')">+</button>
+                    </div>
+                    <div class="col">
+                        <button id="equal" onclick="calculation()">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
